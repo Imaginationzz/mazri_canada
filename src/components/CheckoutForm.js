@@ -15,13 +15,11 @@ export default function CheckoutForm({ total }) {
         return (
             <div className={styles.configError}>
                 <p><strong>Payment Configuration Missing</strong></p>
-                <p>Please add NEXT_PUBLIC_SQUARE_APP_ID and NEXT_PUBLIC_SQUARE_LOCATION_ID to your .env.local file.</p>
-                <div className={styles.mockPayment}>
-                    <p>Mock Checkout (for logic testing):</p>
-                    <button className="btn" onClick={() => alert('Checkout logic would run here!')}>
-                        Pay ${total.toFixed(2)}
-                    </button>
-                </div>
+                <ul style={{ textAlign: 'left', display: 'inline-block' }}>
+                    {!appId && <li>Missing: <code>NEXT_PUBLIC_SQUARE_APP_ID</code></li>}
+                    {!locationId && <li>Missing: <code>NEXT_PUBLIC_SQUARE_LOCATION_ID</code></li>}
+                </ul>
+                <p>Please check your Vercel Environment Variables.</p>
             </div>
         );
     }
