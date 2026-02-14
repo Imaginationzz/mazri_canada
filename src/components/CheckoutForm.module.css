@@ -1,0 +1,48 @@
+.configError {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 15px;
+    border: 1px solid #ffeeba;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.mocks {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ffeeba;
+}
+
+.testCredentials {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px dashed #ced4da;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+.testCredentials code {
+    background-color: #e9ecef;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: monospace;
+    color: #d63384;
+}
+
+.paymentForm {
+    margin-top: 1rem;
+}
+
+.success {
+    color: #27ae60;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.error {
+    color: #c0392b;
+    font-weight: bold;
+    margin-top: 10px;
+}

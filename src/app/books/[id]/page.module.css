@@ -1,0 +1,141 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 4rem 0;
+}
+
+.imageSection {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+    padding-bottom: 140%;
+    /* Aspect ratio suitable for books */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image {
+    object-fit: contain;
+    /* Changed to contain to ensure full cover is seen without cropping */
+}
+
+.placeholderImage {
+    width: 100%;
+    height: 400px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light-text);
+    font-style: italic;
+    border-radius: 8px;
+}
+
+.infoSection {
+    flex: 2;
+    min-width: 300px;
+}
+
+.category {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: var(--light-text);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.authorSection {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.author {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.arabicLabel {
+    font-size: 1rem;
+    color: var(--light-text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Or an Arabic font if available */
+}
+
+.priceSection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.inStock {
+    color: #27ae60;
+    font-weight: 600;
+}
+
+.outOfStock {
+    color: #c0392b;
+    font-weight: 600;
+}
+
+.description h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.description p {
+    font-size: 1.05rem;
+    color: #555;
+    white-space: pre-wrap;
+    /* Keeps formatting from data */
+    margin-bottom: 2rem;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.backLink {
+    color: var(--light-text);
+    transition: color 0.3s ease;
+}
+
+.backLink:hover {
+    color: var(--primary-color);
+}
