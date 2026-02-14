@@ -16,7 +16,7 @@ export const booksData = [
         id: 1,
         title: "الشوك و القرنفل",
         author: "يحي السنوار",
-        price: 1,
+        price: 25,
         isbn: "",
         category: "الأدب",
         description: `This is not my personal story, nor is it the story of a specific individual, even though all its events are real. Each event or group of events pertains to this Palestinian or that one; the fiction in this work lies only in transforming it into a novel revolving around specific characters to meet the form and conditions of a literary work. Everything else is true; I lived much of it, and much of it I heard from the mouths of those who experienced it, along with their families and neighbors over decades on the land of Palestine.
@@ -36,7 +36,7 @@ I dedicate it to those whose hearts are attached to the land of Al-Aqsa, from th
         id: 2,
         title: "العبودية الناعمة",
         author: "د. عبداللطيف عمر المحيمد",
-        price: 20,
+        price: 1,
         isbn: "",
         category: "الفكر المعاصر",
         description: `A critical analytical book that addresses the phenomenon of 'modern freedom' from a deep critical perspective, revealing how the slogans of liberation and emancipation in the context of modern secularism have transformed into new tools of domination and masked slavery. The author deconstructs the prevailing concepts of individual freedom, value neutrality, and moral independence to show how modern humanity is controlled through subtle mechanisms such as consumption, cultural normalization, and targeted legislation. The book is a call to reflect on the meaning of true freedom and offers a comprehensive review of contemporary value systems in light of the established Islamic conception of dignity and servitude to God alone.`,
