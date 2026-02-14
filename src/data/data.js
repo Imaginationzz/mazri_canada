@@ -1,4 +1,16 @@
 export const booksData = [
+    {
+        id: "test-item-001",
+        title: "test prod",
+        price: 1.00,
+        author: "Mazri Admin",
+        category: "Test",
+        coverImage: null,
+        description: "This is a test item for verifying production payments. It costs $1.00.",
+        featured: false,
+        stockQuantity: 100,
+        inStock: true
+    },
 
     {
         id: 1,
