@@ -1,19 +1,10 @@
 export const books = [
-    {
-        id: "test-item-001",
-        title: "Production Test",
-        price: 1.00,
-        author: "Mazri Admin",
-        category: "Test",
-        coverImage: null,
-        description: "This is a test item for verifying production payments. It costs $1.00.",
-        featured: false
-    },
+
     {
         id: 1,
         title: "الشوك و القرنفل",
         author: "يحي السنوار",
-        price: 25,
+        price: 1,
         isbn: "",
         category: "الأدب",
         description: `This is not my personal story, nor is it the story of a specific individual, even though all its events are real. Each event or group of events pertains to this Palestinian or that one; the fiction in this work lies only in transforming it into a novel revolving around specific characters to meet the form and conditions of a literary work. Everything else is true; I lived much of it, and much of it I heard from the mouths of those who experienced it, along with their families and neighbors over decades on the land of Palestine.
