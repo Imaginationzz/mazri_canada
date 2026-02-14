@@ -1,4 +1,4 @@
-export const books = [
+export const booksData = [
 
     {
         id: 1,
